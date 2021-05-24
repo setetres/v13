@@ -12,6 +12,9 @@ export default {
     htmlAttrs: {
       lang: 'en',
     },
+    bodyAttrs: {
+      class: 'overflow-y-scroll min-h-screen',
+    },
     title: 'Sete Três',
     meta: [
       { charset: 'utf-8' },
@@ -39,7 +42,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/css/tailwind.css'],
+  css: ['@/assets/css/application.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
