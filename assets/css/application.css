@@ -9,26 +9,11 @@ body {
 
 :root {
   --background-color: #bbdefb;
-  --blue-50: #e3f2fd;
-  --blue-100: #bbdefb;
-  --blue-A700: #2962ff;
-  --green-50: #e8f5e9;
-  --green-100: #c8e6c9;
-  --green-A700: #00c853;
-  --purple-50: #f3e5f5;
-  --purple-100: #e1bee7;
-  --purple-A700: #aa00ff;
-  --orange-50: #fff3e0;
-  --orange-100: #ffe0b2;
-  --orange-A700: #ff6d00;
-  --orange-700: #f57c00;
-  --grey-900: #212121;
-  --white: #ffffff;
-  --round-button-active-color: #212121;
+  --round-button-active-color: #000;
   --translate-main-slider: 100%;
   --main-slider-color: #e3f2fd;
   --translate-filters-slider: 0;
-  --filters-container-height: 3.8rem;
+  --filters-container-height: 4rem;
   --filters-wrapper-opacity: 1;
 }
 
@@ -43,29 +28,6 @@ ul.main-tabs li {
   position: relative;
   padding: 0;
   z-index: 1;
-} */
-
-.round-button {
-  height: 4.8rem;
-  width: 4.8rem;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--grey-900);
-  transition: color 0.2s ease-in-out;
-}
-
-.round-button:hover,
-.round-button.active {
-  color: var(--round-button-active-color);
-}
-
-.round-button svg {
-  pointer-events: none;
-  height: 2.8rem;
-  width: 2.8rem;
-  transform: translate(0, 0);
 }
 
 .main-slider {
@@ -79,40 +41,8 @@ ul.main-tabs li {
   transform: translateX(var(--translate-main-slider));
 }
 
-.main-slider-circle {
-  height: 4.8rem;
-  width: 4.8rem;
-  border-radius: 50%;
-  transition: background-color 0.1s ease-in-out;
-  background-color: var(--main-slider-color);
-}
-
 .animate-jello {
-  animation: jello-horizontal 0.5s both;
-}
-
-@keyframes jello-horizontal {
-  0% {
-    transform: scale3d(1, 1, 1);
-  }
-  30% {
-    transform: scale3d(1.25, 0.75, 1);
-  }
-  40% {
-    transform: scale3d(0.75, 1.25, 1);
-  }
-  50% {
-    transform: scale3d(1.15, 0.85, 1);
-  }
-  65% {
-    transform: scale3d(0.55, 1.05, 1);
-  }
-  75% {
-    transform: scale3d(1.05, 0.55, 1);
-  }
-  100% {
-    transform: scale3d(1, 1, 1);
-  }
+  background-color: var(--main-slider-color);
 }
 
 .filters-container {
@@ -151,7 +81,7 @@ ul.main-tabs li {
   height: 3rem;
   padding: 0 1.5rem;
   color: var(--orange-700);
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
 }
