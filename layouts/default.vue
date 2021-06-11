@@ -12,7 +12,7 @@
   >
     <nav>
       <div class="filters-container">
-        <div class="bg-white rounded-full shadow-md p-2 filters-wrapper mb-4">
+        <div class="bg-white rounded-full shadow-md p-4 filters-wrapper mb-4">
           <ul class="filter-tabs flex">
             <li>
               <button
@@ -89,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-white rounded-full shadow-md p-2 main-tabs-container">
+      <div class="bg-white rounded-full shadow-md p-4 main-tabs-container">
         <div class="main-tabs-wrapper relative">
           <ul class="main-tabs flex">
             <li>
