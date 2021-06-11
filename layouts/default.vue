@@ -10,38 +10,77 @@
       main-tabs
     "
   >
-    <svg
-      class="w-48 flex-shrink-0 absolute top-0 bottom-0"
-      viewBox="0 0 75 137"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        class="fill-current text-black"
-        fill-rule="evenodd"
-        clip-rule="evenodd"
-        d="M17.97 1.2v21.12c0 .96.238 1.2 1.194.96 5.253-.96 9.55-3.36 13.371-7.68 3.582-4.08 5.492-8.88 5.97-14.4 0-.72.477-1.2 1.433-1.2H43.3c.717 0 1.194.48 1.194 1.2v21.12c0 .96.239 1.2 1.194.96 5.253-.96 9.79-3.36 13.372-7.68 3.582-4.08 5.492-8.88 5.97-14.4 0-.72.477-1.2 1.432-1.2h3.343C70.522 0 71 .48 71 1.2v25.44c0 5.28-1.433 10.32-4.06 14.64-2.626 4.56-5.969 8.16-10.267 10.8-.477.48-.716.72-.716 1.2s.239.96.716 1.2c2.865 1.68 5.253 3.84 7.402 6.48 2.15 2.64 3.82 5.52 5.015 8.88C70.284 73.2 71 76.56 71 79.92v28.214c0 .96-.478 1.2-1.194 1.2h-3.343c-.955 0-1.433-.24-1.433-1.2-.477-5.28-2.387-10.08-5.97-14.4-3.82-4.08-8.118-6.72-13.371-7.68-.955 0-1.194.48-1.194.96v48.12c0 .96-.477 1.2-1.433 1.2h-3.104c-.955 0-1.432-.24-1.432-1.2v-67.08c0-.96.477-1.44 1.432-1.44h3.104c.956 0 1.433.48 1.433 1.44v10.8c0 .72.239 1.2 1.194 1.2 6.925.96 12.894 4.08 17.67 9.36.239.48.477.48.955.24.478 0 .716-.48.716-.96V79.92c0-6.24-2.149-11.52-6.447-16.08-4.298-4.56-9.551-7.2-15.76-7.68-.955 0-1.193-.24-1.193-1.2V51.6c0-.96.238-1.44 1.194-1.44 6.208-.24 11.461-2.64 15.76-7.2 4.297-4.56 6.446-10.08 6.446-16.32v-6c0-.48-.238-.72-.716-.96-.477 0-.716 0-.955.24-5.212 5.676-11.61 8.969-19.012 9.518-.577 6.279-3.108 11.826-7.275 16.643-5.014 5.76-10.984 8.88-18.147 9.84-.717.24-.955.48-.955.96v17.822l7.34-7.341c.482-.481 1.203-.481 1.925 0l2.404 2.404c.481.722.481 1.443 0 1.924l-9.378 9.139c-.722.721-.722 1.442 0 1.923l9.378 9.38c.481.72.481 1.442 0 1.923l-2.404 2.405c-.722.721-1.443.721-1.924 0l-6.836-6.836v18.701c0 1.036-.518 1.295-1.554 1.295h-3.367c-1.036 0-1.554-.259-1.554-1.295V89.088l-7.37 7.37c-.722.722-1.444.722-1.925 0L.541 94.055c-.721-.48-.721-1.202 0-1.924l9.138-9.379c.481-.48.481-1.202 0-1.923L.541 71.689c-.721-.48-.721-1.202 0-1.923l2.164-2.405c.481-.481 1.203-.481 1.924 0L12 74.73V54c0-.48 0-.96.478-1.44l1.91-1.68c.239-.48.716-.72 1.432-.72 6.209 0 11.462-2.4 15.999-6.96 4.298-4.56 6.686-10.08 6.686-16.56v-6c0-.48-.239-.72-.717-.96-.477 0-.716 0-.955.24-5.73 6.24-12.655 9.6-21.012 9.6-.478 0-.956 0-1.433-.48l-1.91-1.92C12 26.88 12 26.4 12 25.68V1.2c0-.72.478-1.2 1.433-1.2h3.104c.955 0 1.433.48 1.433 1.2zM71 57a4 4 0 100-8 4 4 0 000 8z"
-      />
-    </svg>
-    <nav class="bg-white rounded-full shadow-md p-2">
+    <nav>
       <div class="filters-container">
-        <div class="filters-wrapper">
-          <ul class="filter-tabs flex inline-flex">
+        <div class="bg-white rounded-full shadow-md p-2 filters-wrapper mb-4">
+          <ul class="filter-tabs flex">
             <li>
               <button
-                class="filter-button filter-active"
+                class="
+                  filter-button filter-active
+                  flex flex-1
+                  items-center
+                  justify-center
+                  h-16
+                  px-8
+                  rounded-full
+                  ring-inset
+                  focus:outline-none
+                  focus:ring
+                  focus:ring-opacity-100
+                  focus:ring-gray-900
+                  hover:bg-gray-100
+                  select-none
+                "
                 data-translate-value="0"
               >
-                New
+                About
               </button>
             </li>
             <li>
-              <button class="filter-button" data-translate-value="100%">
+              <button
+                class="
+                  filter-button
+                  flex flex-1
+                  items-center
+                  justify-center
+                  h-16
+                  px-8
+                  rounded-full
+                  ring-inset
+                  focus:outline-none
+                  focus:ring
+                  focus:ring-opacity-100
+                  focus:ring-gray-900
+                  hover:bg-gray-100
+                  select-none
+                "
+                data-translate-value="100%"
+              >
                 Popular
               </button>
             </li>
             <li>
-              <button class="filter-button" data-translate-value="200%">
-                Following
+              <button
+                class="
+                  filter-button
+                  flex flex-1
+                  items-center
+                  justify-center
+                  h-16
+                  px-8
+                  rounded-full
+                  ring-inset
+                  focus:outline-none
+                  focus:ring
+                  focus:ring-opacity-100
+                  focus:ring-gray-900
+                  hover:bg-gray-100
+                  select-none
+                "
+                data-translate-value="200%"
+              >
+                Contact
               </button>
             </li>
           </ul>
@@ -50,14 +89,14 @@
           </div>
         </div>
       </div>
-      <div class="main-tabs-container">
+      <div class="bg-white rounded-full shadow-md p-2 main-tabs-container">
         <div class="main-tabs-wrapper relative">
-          <ul class="main-tabs flex inline-flex">
+          <ul class="main-tabs flex">
             <li>
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -77,16 +116,15 @@
                 data-color="blue"
               >
                 <svg
-                  class="w-8 h-auto flex-shrink-0 pointer-events-none"
-                  viewBox="0 0 16 16"
+                  class="w-auto h-9 flex-shrink-0 pointer-events-none"
+                  viewBox="0 0 75 137"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
                 >
                   <path
                     class="fill-current text-gray-600"
-                    d="M2 13h2v2H2zM2 9h2v2H2zM2 5h2v2H2zM6 13h2v2H6zM6 9h2v2H6zM6 5h2v2H6zM12 13h2v2h-2zM12 9h2v2h-2zM12 5h2v2h-2zM2 1h2v2H2z"
-                    fill="#000000"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M17.97 1.2v21.12c0 .96.238 1.2 1.194.96 5.253-.96 9.55-3.36 13.371-7.68 3.582-4.08 5.492-8.88 5.97-14.4 0-.72.477-1.2 1.433-1.2H43.3c.717 0 1.194.48 1.194 1.2v21.12c0 .96.239 1.2 1.194.96 5.253-.96 9.79-3.36 13.372-7.68 3.582-4.08 5.492-8.88 5.97-14.4 0-.72.477-1.2 1.432-1.2h3.343C70.522 0 71 .48 71 1.2v25.44c0 5.28-1.433 10.32-4.06 14.64-2.626 4.56-5.969 8.16-10.267 10.8-.477.48-.716.72-.716 1.2s.239.96.716 1.2c2.865 1.68 5.253 3.84 7.402 6.48 2.15 2.64 3.82 5.52 5.015 8.88C70.284 73.2 71 76.56 71 79.92v28.214c0 .96-.478 1.2-1.194 1.2h-3.343c-.955 0-1.433-.24-1.433-1.2-.477-5.28-2.387-10.08-5.97-14.4-3.82-4.08-8.118-6.72-13.371-7.68-.955 0-1.194.48-1.194.96v48.12c0 .96-.477 1.2-1.433 1.2h-3.104c-.955 0-1.432-.24-1.432-1.2v-67.08c0-.96.477-1.44 1.432-1.44h3.104c.956 0 1.433.48 1.433 1.44v10.8c0 .72.239 1.2 1.194 1.2 6.925.96 12.894 4.08 17.67 9.36.239.48.477.48.955.24.478 0 .716-.48.716-.96V79.92c0-6.24-2.149-11.52-6.447-16.08-4.298-4.56-9.551-7.2-15.76-7.68-.955 0-1.193-.24-1.193-1.2V51.6c0-.96.238-1.44 1.194-1.44 6.208-.24 11.461-2.64 15.76-7.2 4.297-4.56 6.446-10.08 6.446-16.32v-6c0-.48-.238-.72-.716-.96-.477 0-.716 0-.955.24-5.212 5.676-11.61 8.969-19.012 9.518-.577 6.279-3.108 11.826-7.275 16.643-5.014 5.76-10.984 8.88-18.147 9.84-.717.24-.955.48-.955.96v17.822l7.34-7.341c.482-.481 1.203-.481 1.925 0l2.404 2.404c.481.722.481 1.443 0 1.924l-9.378 9.139c-.722.721-.722 1.442 0 1.923l9.378 9.38c.481.72.481 1.442 0 1.923l-2.404 2.405c-.722.721-1.443.721-1.924 0l-6.836-6.836v18.701c0 1.036-.518 1.295-1.554 1.295h-3.367c-1.036 0-1.554-.259-1.554-1.295V89.088l-7.37 7.37c-.722.722-1.444.722-1.925 0L.541 94.055c-.721-.48-.721-1.202 0-1.924l9.138-9.379c.481-.48.481-1.202 0-1.923L.541 71.689c-.721-.48-.721-1.202 0-1.923l2.164-2.405c.481-.481 1.203-.481 1.924 0L12 74.73V54c0-.48 0-.96.478-1.44l1.91-1.68c.239-.48.716-.72 1.432-.72 6.209 0 11.462-2.4 15.999-6.96 4.298-4.56 6.686-10.08 6.686-16.56v-6c0-.48-.239-.72-.717-.96-.477 0-.716 0-.955.24-5.73 6.24-12.655 9.6-21.012 9.6-.478 0-.956 0-1.433-.48l-1.91-1.92C12 26.88 12 26.4 12 25.68V1.2c0-.72.478-1.2 1.433-1.2h3.104c.955 0 1.433.48 1.433 1.2zM71 57a4 4 0 100-8 4 4 0 000 8z"
                   />
                 </svg>
               </button>
@@ -95,7 +133,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -131,7 +169,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -167,7 +205,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -203,7 +241,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -239,7 +277,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -275,7 +313,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -311,7 +349,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -349,7 +387,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -392,7 +430,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -428,7 +466,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -464,7 +502,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -505,7 +543,7 @@
               <button
                 class="
                   round-button
-                  inline-flex
+                  flex
                   items-center
                   justify-center
                   w-16
@@ -655,7 +693,7 @@ export default {
             root.style.setProperty('--filters-container-height', '0')
             root.style.setProperty('--filters-wrapper-opacity', '0')
           } else {
-            root.style.setProperty('--filters-container-height', '4rem')
+            root.style.setProperty('--filters-container-height', '6rem')
             root.style.setProperty('--filters-wrapper-opacity', '1')
           }
         }
