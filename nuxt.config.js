@@ -44,4 +44,7 @@ export default {
   modules: ['@nuxtjs/axios'],
   axios: {},
   build: {},
+  tailwindcss: {
+    exposeConfig: true,
+  },
 }
