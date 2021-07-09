@@ -8,7 +8,7 @@ export default {
       lang: 'en',
     },
     bodyAttrs: {
-      class: 'overflow-y-scroll min-h-screen',
+      class: 'overflow-hidden min-h-screen bg-black',
     },
     title: 'Sete Três',
     meta: [
