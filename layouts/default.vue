@@ -7,10 +7,82 @@
         </div>
       </div>
     </div>
-    <div class="relative">
-      <div class="mirror overflow-y-scroll absolute top-0 bottom-0">
-        <div>sadsdsdsdsdsdsdsdsd</div>
-      </div>
+    <div class="flex flex-col">
+      <form
+        id="contact-form"
+        class="contact-form flex flex-col flex-1 w-full"
+        action="//formspree.io/xodbpkbm"
+        method="post"
+      >
+        <input
+          class="
+            contact-form__input
+            w-full
+            p-8
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-100
+            focus:ring-yellow-500
+            focus:z-10
+          "
+          type="text"
+          name="name"
+          placeholder="Name"
+          required=""
+          tabindex="1"
+          autocomplete="off"
+        /><input
+          class="
+            contact-form__input
+            w-full
+            p-8
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-100
+            focus:ring-yellow-500
+            focus:z-10
+          "
+          type="email"
+          name="_replyto"
+          placeholder="Email"
+          required=""
+          tabindex="2"
+          autocomplete="off"
+        /><input
+          class="
+            contact-form__input
+            w-full
+            p-8
+            focus:outline-none
+            focus:ring
+            focus:ring-opacity-100
+            focus:ring-yellow-500
+            focus:z-10
+          "
+          type="text"
+          name="message"
+          placeholder="Hello,"
+          required=""
+          tabindex="3"
+          autocomplete="off"
+        /><button
+          class="contact-form__button w-full p-8"
+          type="submit"
+          tabindex="4"
+        >
+          <span>Send</span
+          ><i class="shake shake-chunkn" aria-hidden="true">🎉</i></button
+        ><input type="hidden" name="_next" value="?=success" /><input
+          type="hidden"
+          name="_format"
+          value="plain"
+        /><input type="hidden" name="_language" value="pt" /><input
+          type="hidden"
+          name="_subject"
+          value="Contact"
+        /><input type="text" name="_gotcha" style="display: none" />
+      </form>
+      <div class="border-t-2 border-black p-8">SOCIALS</div>
     </div>
     <div class="flex items-center justify-center">
       <a
@@ -346,7 +418,36 @@ export default {
     }
   },
   mounted() {
-    this.$nextTick(() => {})
+    this.$nextTick(() => {
+      // function submitSuccess() {
+      //   const giphyPlace = $('#giphy')
+      //   const qEndPoint =
+      //     'https://api.giphy.com/v1/gifs/random?tag=yes&api_key=TmA6w9NmXT0TrXsh1aVgbtApF4dUF9A5'
+      //   function processRequest() {
+      //     if (xhr.readyState === 4) {
+      //       let response = xhr.response
+      //       response = JSON.parse(response)
+      //       $('#contact-form').addClass('contact-form--active')
+      //       $('.contact-form__input').val('')
+      //       $('.pulse__loader').removeClass('pulse__loader--active')
+      //       giphyPlace.addClass('giphy--active')
+      //       giphyPlace.css(
+      //         'backgroundImage',
+      //         'url(' + response.data.fixed_height_small_url + ')'
+      //       )
+      //       $.playSound('/party.mp3')
+      //       setTimeout(function () {
+      //         giphyPlace.removeClass('giphy--active')
+      //         $('#contact-form').removeClass('contact-form--active')
+      //       }, 5000)
+      //     }
+      //   }
+      //   var xhr = new XMLHttpRequest()
+      //   xhr.open('GET', qEndPoint, true)
+      //   xhr.send()
+      //   xhr.addEventListener('readystatechange', processRequest, true)
+      // }
+    })
   },
 }
 </script>
