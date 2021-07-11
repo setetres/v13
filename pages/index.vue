@@ -73,8 +73,16 @@ export default {
 
         // texture
 
+        const random = Math.floor(Math.random() * 3) + 0
+        const bigSize = [
+          '/texture-01.jpg',
+          '/texture-02.jpg',
+          '/texture-03.jpg',
+        ]
+        // document.body.style.backgroundImage = bigSize[random]
+
         const textureLoader = new THREE.TextureLoader(manager)
-        const texture = textureLoader.load('/texture-03.jpg')
+        const texture = textureLoader.load(bigSize[random])
 
         // model
 
