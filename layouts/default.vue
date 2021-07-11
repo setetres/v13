@@ -176,7 +176,7 @@
         rel="nofollow noopenner"
       >
         <svg
-          class="w-32 h-auto flex-shrink-0 pointer-events-none"
+          class="w-40 h-auto flex-shrink-0 pointer-events-none"
           viewBox="0 0 16 16"
           xmlns="http://www.w3.org/2000/svg"
           width="16"
