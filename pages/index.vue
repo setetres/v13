@@ -73,11 +73,15 @@ export default {
 
         // texture
 
-        const random = Math.floor(Math.random() * 3) + 0
+        const random = Math.floor(Math.random() * 7) + 0
         const bigSize = [
           '/texture-01.jpg',
           '/texture-02.jpg',
           '/texture-03.jpg',
+          '/texture-04.jpg',
+          '/texture-05.jpg',
+          '/texture-06.jpg',
+          '/texture-07.jpg',
         ]
         // document.body.style.backgroundImage = bigSize[random]
 
