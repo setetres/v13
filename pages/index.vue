@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div id="test" class="pointer-events-none" />
+    <div id="test" class="pointer-events-none"></div>
   </div>
 </template>
 <script>
@@ -74,7 +74,7 @@ export default {
         // texture
 
         const textureLoader = new THREE.TextureLoader(manager)
-        const texture = textureLoader.load('/texture-01.jpg')
+        const texture = textureLoader.load('/texture-03.jpg')
 
         // model
 
@@ -91,7 +91,7 @@ export default {
 
         const loader = new OBJLoader(manager)
         loader.load(
-          'fat.obj',
+          'sigil.obj',
           function (obj) {
             object = obj
           },
