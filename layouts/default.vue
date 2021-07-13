@@ -199,19 +199,9 @@
         justify-center
       "
     >
-      <nuxt-link
-        class="
-          flex flex-1
-          items-center
-          justify-center
-          h-full
-          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
-          dark:ring-gray-100
-        "
-        to="/"
-        exact
-      >
+      <h1>
         <svg
+          aria-label="Sete Três"
           class="w-20 h-auto flex-shrink-0 pointer-events-none"
           viewBox="0 0 75 137"
           xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +214,7 @@
             fill="#000000"
           />
         </svg>
-      </nuxt-link>
+      </h1>
     </div>
     <div
       class="
