@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <div id="test" class="pointer-events-none"></div>
+    <div id="sigil" class="pointer-events-none"></div>
   </div>
 </template>
 <script>
@@ -23,7 +23,7 @@ export default {
       let camera, scene, renderer, object
 
       const frame = document.querySelector('#frame')
-      const container = document.querySelector('#test')
+      const container = document.querySelector('#sigil')
 
       let mouseX = 0
       let mouseY = 0
@@ -67,10 +67,6 @@ export default {
 
         const manager = new THREE.LoadingManager(loadModel)
 
-        manager.onProgress = function (item, loaded, total) {
-          // console.log(item, loaded, total)
-        }
-
         // texture
 
         const random = Math.floor(Math.random() * 7) + 0
@@ -83,33 +79,16 @@ export default {
           '/texture-06.jpg',
           '/texture-07.jpg',
         ]
-        // document.body.style.backgroundImage = bigSize[random]
 
         const textureLoader = new THREE.TextureLoader(manager)
         const texture = textureLoader.load(bigSize[random])
 
         // model
 
-        function onProgress(xhr) {
-          if (xhr.lengthComputable) {
-            // const percentComplete = (xhr.loaded / xhr.total) * 100
-            // console.log(
-            //   'model ' + Math.round(percentComplete, 2) + '% downloaded'
-            // )
-          }
-        }
-
-        function onError() {}
-
         const loader = new OBJLoader(manager)
-        loader.load(
-          'sigil.obj',
-          function (obj) {
-            object = obj
-          },
-          onProgress,
-          onError
-        )
+        loader.load('sigil.obj', function (obj) {
+          object = obj
+        })
 
         // renderer
 
