@@ -10,6 +10,11 @@
   transform: rotateY(180deg);
 }
 
+.fibonacci {
+  grid-template-columns: repeat(34, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
+
 .switch {
   grid-column-start: 2;
   grid-column-end: 6;
@@ -17,61 +22,84 @@
   grid-row-end: 2;
 }
 
-.wrapper {
-  grid-template-columns: repeat(34, 1fr);
-  grid-template-rows: repeat(21, 1fr);
+.github {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 20;
+  grid-row-end: 20;
 }
 
-.wrapper .wrapper-21 {
+.instagram {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 20;
+  grid-row-end: 20;
+}
+
+.linkedin {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  grid-row-start: 20;
+  grid-row-end: 20;
+}
+
+.twitter {
+  grid-column-start: 8;
+  grid-column-end: 8;
+  grid-row-start: 20;
+  grid-row-end: 20;
+}
+
+.fibonacci-21 {
   grid-column-start: 1;
   grid-column-end: 22;
   grid-row-start: 1;
   grid-row-end: 22;
 }
 
-.wrapper .wrapper-13 {
+.fibonacci-13 {
   grid-column-start: 22;
   grid-column-end: 35;
   grid-row-start: 9;
   grid-row-end: 22;
 }
 
-.wrapper .wrapper-8 {
+.fibonacci-8 {
   grid-column-start: 27;
   grid-column-end: 35;
   grid-row-start: 1;
   grid-row-end: 9;
 }
 
-.wrapper .wrapper-5 {
+.fibonacci-5 {
   grid-column-start: 22;
   grid-column-end: 27;
   grid-row-start: 1;
   grid-row-end: 6;
 }
 
-.wrapper .wrapper-3 {
+.fibonacci-3 {
   grid-column-start: 22;
   grid-column-end: 25;
   grid-row-start: 6;
   grid-row-end: 9;
 }
 
-.wrapper .wrapper-2 {
+.fibonacci-2 {
   grid-column-start: 25;
   grid-column-end: 27;
   grid-row-start: 7;
   grid-row-end: 9;
 }
 
-.wrapper .wrapper-1a {
+.fibonacci-1a {
   grid-column-start: 25;
   grid-column-end: 26;
   grid-row-start: 6;
   grid-row-end: 7;
 }
 
-.wrapper .wrapper-1b {
+.fibonacci-1b {
   grid-column-start: 26;
   grid-column-end: 27;
   grid-row-start: 6;

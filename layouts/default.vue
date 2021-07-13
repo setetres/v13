@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper grid gap-1 p-1 w-screen h-screen">
+  <div class="fibonacci grid gap-1 p-1 w-screen h-screen">
     <div class="switch z-10">
       <label
         class="
@@ -9,8 +9,10 @@
           rounded-full
           w-full
           h-8
+          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
           cursor-pointer
         "
+        tabindex="0"
         for="dark-mode"
       >
         <input
@@ -20,9 +22,93 @@
         />
       </label>
     </div>
+    <div class="github flex items-center justify-center z-10">
+      <a
+        aria-label="GitHub"
+        href="https://github.com/setetres"
+        class="
+          w-full
+          flex flex-1
+          items-center
+          justify-center
+          border-4 border-black
+          dark:border-gray-900
+          rounded-full
+          w-full
+          h-8
+          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
+          dark:ring-gray-100
+        "
+        target="_blank"
+        rel="nofollow noopenner"
+      ></a>
+    </div>
+    <div class="instagram flex items-center justify-center z-10">
+      <a
+        aria-label="Instagram"
+        href="https://instagram.com/setetres"
+        class="
+          w-full
+          flex flex-1
+          items-center
+          justify-center
+          border-4 border-black
+          dark:border-gray-900
+          rounded-full
+          w-full
+          h-8
+          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
+          dark:ring-gray-100
+        "
+        target="_blank"
+        rel="nofollow noopenner"
+      ></a>
+    </div>
+    <div class="linkedin flex items-center justify-center z-10">
+      <a
+        aria-label="LinkedIn"
+        href="https://linkedin.com/in/setetres"
+        class="
+          w-full
+          flex flex-1
+          items-center
+          justify-center
+          border-4 border-black
+          dark:border-gray-900
+          rounded-full
+          w-full
+          h-8
+          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
+          dark:ring-gray-100
+        "
+        target="_blank"
+        rel="nofollow noopenner"
+      ></a>
+    </div>
+    <div class="twitter flex items-center justify-center z-10">
+      <a
+        aria-label="Twitter"
+        href="https://twitter.com/setetres"
+        class="
+          w-full
+          flex flex-1
+          items-center
+          justify-center
+          border-4 border-black
+          dark:border-gray-900
+          rounded-full
+          w-full
+          h-8
+          focus:outline-none focus:ring focus:ring-opacity-100 focus:ring-white
+          dark:ring-gray-100
+        "
+        target="_blank"
+        rel="nofollow noopenner"
+      ></a>
+    </div>
     <div
       id="frame"
-      class="wrapper-21 bg-gray-900 dark:bg-black relative overflow-hidden"
+      class="fibonacci-21 bg-gray-900 dark:bg-black relative overflow-hidden"
     >
       <div class="mirror overflow-y-auto absolute top-0 bottom-0">
         <div>
@@ -32,7 +118,7 @@
     </div>
     <div
       class="
-        wrapper-13
+        fibonacci-13
         bg-gray-900
         dark:bg-black
         flex
@@ -153,7 +239,7 @@
     </div>
     <div
       class="
-        wrapper-8
+        fibonacci-8
         bg-gray-900
         dark:bg-black
         flex
@@ -191,7 +277,7 @@
     </div>
     <div
       class="
-        wrapper-5
+        fibonacci-5
         bg-black
         dark:bg-gray-900
         flex
@@ -218,7 +304,7 @@
     </div>
     <div
       class="
-        wrapper-3
+        fibonacci-3
         bg-gray-900
         dark:bg-black
         flex
@@ -256,7 +342,7 @@
     </div>
     <div
       class="
-        wrapper-2
+        fibonacci-2
         bg-gray-900
         dark:bg-black
         flex
@@ -294,7 +380,7 @@
     </div>
     <div
       class="
-        wrapper-1a
+        fibonacci-1a
         bg-gray-900
         dark:bg-black
         flex
@@ -343,7 +429,7 @@
     </div>
     <div
       class="
-        wrapper-1b
+        fibonacci-1b
         bg-gray-900
         dark:bg-black
         flex
