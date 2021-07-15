@@ -1,20 +1,13 @@
-# setetres-v13
+# v13
 
-## Build Setup
+[![Github License](https://img.shields.io/github/license/setetres/v12.svg?v=10)](https://github.com/setetres/v12/blob/master/LICENSE)
 
-```bash
-# install dependencies
-$ yarn install
+| [![v13](https://setetres.s3.amazonaws.com/setetres.st/img/share-v13.png?v=2&raw=true)](http://setetres.st) |
+| ---------------------------------------------------------------------------------------------------------- |
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## License
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+[CC0-1.0]
 
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[http://setetres.st]: http://setetres.st
+[cc0-1.0]: http://creativecommons.org/licenses/cc0/1.0

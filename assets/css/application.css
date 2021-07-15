@@ -10,98 +10,42 @@
   transform: rotateY(180deg);
 }
 
-.fibonacci {
-  grid-template-columns: repeat(34, 1fr);
-  grid-template-rows: repeat(21, 1fr);
+.button {
+  transform-style: preserve-3d;
 }
 
-.switch {
-  grid-column-start: 2;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 2;
+body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23F59E0B' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.github {
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 20;
-  grid-row-end: 20;
+.dark body {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%238B5CF6' fill-opacity='0.5'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.instagram {
-  grid-column-start: 4;
-  grid-column-end: 4;
-  grid-row-start: 20;
-  grid-row-end: 20;
+.button::before {
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px #000000, 0 0.5rem 0 0 #fbbf24;
+  transform: translate3d(0, 0.625rem, -1rem);
 }
 
-.linkedin {
-  grid-column-start: 6;
-  grid-column-end: 6;
-  grid-row-start: 20;
-  grid-row-end: 20;
+.button:hover::before {
+  box-shadow: 0 0 0 2px #000000, 0 0.375rem 0 0 #fbbf24;
+  transform: translate3d(0, 0.375rem, -1rem);
 }
 
-.twitter {
-  grid-column-start: 8;
-  grid-column-end: 8;
-  grid-row-start: 20;
-  grid-row-end: 20;
+.button:active::before {
+  box-shadow: 0 0 0 2px #000000, 0 0 #fbbf24;
+  transform: translate3d(0, 0, -1rem);
 }
 
-.fibonacci-21 {
-  grid-column-start: 1;
-  grid-column-end: 22;
-  grid-row-start: 1;
-  grid-row-end: 22;
+.dark .button::before {
+  box-shadow: 0 0 0 2px #000000, 0 0.5rem 0 0 #8b5cf6;
 }
 
-.fibonacci-13 {
-  grid-column-start: 22;
-  grid-column-end: 35;
-  grid-row-start: 9;
-  grid-row-end: 22;
+.dark .button:hover::before {
+  box-shadow: 0 0 0 2px #000000, 0 0.5rem 0 0 #8b5cf6;
 }
 
-.fibonacci-8 {
-  grid-column-start: 27;
-  grid-column-end: 35;
-  grid-row-start: 1;
-  grid-row-end: 9;
-}
-
-.fibonacci-5 {
-  grid-column-start: 22;
-  grid-column-end: 27;
-  grid-row-start: 1;
-  grid-row-end: 6;
-}
-
-.fibonacci-3 {
-  grid-column-start: 22;
-  grid-column-end: 25;
-  grid-row-start: 6;
-  grid-row-end: 9;
-}
-
-.fibonacci-2 {
-  grid-column-start: 25;
-  grid-column-end: 27;
-  grid-row-start: 7;
-  grid-row-end: 9;
-}
-
-.fibonacci-1a {
-  grid-column-start: 25;
-  grid-column-end: 26;
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-.fibonacci-1b {
-  grid-column-start: 26;
-  grid-column-end: 27;
-  grid-row-start: 6;
-  grid-row-end: 7;
+.dark .button:active::before {
+  box-shadow: 0 0 0 2px #000000, 0 0 #8b5cf6;
 }

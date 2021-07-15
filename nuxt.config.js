@@ -8,7 +8,8 @@ export default {
       lang: 'en',
     },
     bodyAttrs: {
-      class: 'overflow-hidden min-h-screen bg-black dark:bg-gray-900',
+      class:
+        'overflow-hidden min-h-screen select-none appearance-none bg-yellow-300 dark:bg-purple-400',
     },
     title: 'Sete Três',
     meta: [
@@ -70,7 +71,7 @@ export default {
   },
   loading: {
     color: '#000000',
-    failedColor: '#e02020',
+    failedColor: '#000000',
     throttle: 0,
   },
   css: ['@/assets/css/application.css'],
