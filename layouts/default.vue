@@ -321,7 +321,7 @@
         </li>
         <li>
           <a
-            href="https://oxo.setetres.st"
+            href="http://oxo.setetres.st"
             target="_blank"
             rel="nofollow noopenner"
             class="
