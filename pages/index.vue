@@ -10,7 +10,7 @@ export default {
   },
   head() {
     return {
-      title: 'Sete Três',
+      title: 'Sete Três — v13',
     }
   },
   mounted() {
